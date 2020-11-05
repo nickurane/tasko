@@ -1,0 +1,26 @@
+.btn_r
+{
+    
+  border-radius: 50%;
+  outline: none;
+  text-align: center;
+  width:50px;
+  height: 50px;
+  background-color:rgb(78, 167, 78);
+  color:white;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px black;
+  border-color: none;
+}
+.btn_r:hover {
+    opacity: 0.5;
+  }
+ #body
+  {
+ background-image: url('bg.jpg');
+  }
+  .navbar-toggler-icon
+  {
+    color:black;
+    
+  }
