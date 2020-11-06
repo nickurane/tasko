@@ -64,12 +64,12 @@ crossorigin="anonymous"
             <div>
               <span class="px-5 ">
 
-              <button  class="btn btn-outline-primary btn-sm" onclick="completed(${taskobj.moment.valueOf()})">
+              <button  class="btn btn-outline-primary btn-sm" style="position:fixed;" onclick="completed(${taskobj.moment.valueOf()})">
                 <img src="check.svg" style="height:17px;width:17px;"></img>
              
              </button>
               </span>
-              <button type="button" class="btn btn-outline-danger btn-sm" onclick="delete_item(${taskobj.moment.valueOf()})">
+              <button type="button" class="btn btn-outline-danger btn-sm" style="position:fixed;" onclick="delete_item(${taskobj.moment.valueOf()})">
                 <i class="fa fa-trash-alt"></i>
               </button>
             </div>
