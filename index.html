@@ -98,7 +98,7 @@ crossorigin="anonymous"
         var parser=new DOMParser();
        var doc=parser.parseFromString(k,"text/html");
         let j=doc.querySelector("#text").style.textDecoration='line-through';
-         doc.querySelector("#text1").innerHTML="<b>COMPLETED</b>";
+         doc.querySelector("#text1").innerHTML="<small>COMPLETED</small>";
         
         let f= doc.body.innerHTML;
         allexpencehtml[index]=f;
